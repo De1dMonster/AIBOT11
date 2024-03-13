@@ -26,80 +26,101 @@ DAXX = Client(
     bot_token = BOT_TOKEN
 )
 START = f"""
-๏ ʜᴇʏ, ɪ ᴀᴍ {BOT_NAME}
-➻ ᴀɴ ᴏᴘᴇɴ-ᴀɪ-ʙᴀsᴇᴅ ᴄʜᴀᴛɢᴘᴛ.
+➤ ʜᴇʏ, ɪ ᴀᴍ {BOT_NAME} 
+➤ ᴀɴ ᴏᴘᴇɴ-ᴀɪ-ʙᴀsᴇᴅ ᴄʜᴀᴛɢᴘᴛ
+➤ ɪ ᴄᴀɴ ᴀɴsᴡᴇʀ ʏᴏᴜʀ ǫᴜsᴛɪᴏɴ ᴇᴀsɪʟʏ
+
 ──────────────────
-ɪ ᴀᴍ ᴀᴅᴠᴀɴᴄᴇ ʙᴏᴛ ᴀɴᴅ ᴄᴀɴ 
+➤ ɪ ᴀᴍ ᴀᴅᴠᴀɴᴄᴇ ʙᴏᴛ ᴀɴᴅ ᴄᴀɴ 
 ᴀɴsᴡᴇʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀɪᴇs ᴇᴀsʟɪʏ
-
-Rᴇᴀᴅ Tʜᴇ ʜᴇʟᴘ sᴇᴄᴛɪᴏɴ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏ
-
-๏ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴜsᴇ /help
+➤ Rᴇᴀᴅ Tʜᴇ ʜᴇʟᴘ sᴇᴄᴛɪᴏɴ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏ
+➤ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴜsᴇ /help
 """
 xa = bytearray.fromhex("68747470733a2f2f6769746875622e636f6d2f444158585445414d2f4441585843484154475054").decode()
 SOURCE = xa
 SOURCE_TEXT = f"""
-๏ ʜᴇʏ, ɪ ᴀᴍ [{BOT_NAME}]
-➻ ᴀɴ ᴏᴘᴇɴ-ᴀɪ-ʙᴀsᴇᴅ ᴄʜᴀᴛɢᴘᴛ.
+❥ ʜᴇʏ, ɪ ᴀᴍ {BOT_NAME} ʙᴏᴛ
+❥ ᴀɴ ᴏᴘᴇɴ-ᴀɪ-ʙᴀsᴇᴅ ᴄʜᴀᴛɢᴘᴛ
+❥ ɪ ᴄᴀɴ ᴀɴsᴡᴇʀ ʏᴏᴜʀ ǫᴜᴀᴛɪᴏɴ ᴇᴀsʟɪʏ
+
 ──────────────────
-ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ
+☟ ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ☟
 """
 
 
-x=["❤️","🎉","✨","🪸","🎉","🎈","🎯"]
+x=["❤️"]
 g=choice(x)
 MAIN = [
     [
-        InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/{OWNER_USERNAME}"),
-        InlineKeyboardButton(text=" ꜱᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{SUPPORT_GRP}"),
+        InlineKeyboardButton(text="🦋 𝐌ᴜsɪᴄ ", url=f"https://t.me/HINATA_N_BOT"),
+        InlineKeyboardButton(text=" 𝐒𝚄𝙿𝙿𝙾𝚁𝚃  🥀", url=f"https://t.me/T10ThiesKingsSHR"),
     ],
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ",
+            text="•─╼⃝𖠁 𝐀ᴅᴅ 𝐌ᴇ 𝐁ᴀʙʏ 𖠁⃝╾─•",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴍᴅs ", callback_data="HELP"),
+        InlineKeyboardButton(text=" 🎟 𝐇ᴇʟᴘ & 𝐂ᴍᴅs ", callback_data="HELP"),
     ],
     [
-        InlineKeyboardButton(text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url=f"{SOURCE}"),
-        InlineKeyboardButton(text=" ᴜᴘᴅᴀᴛᴇs ", url=f"https://t.me/{UPDATE_CHNL}"),
+        InlineKeyboardButton(text="𝐂ᴏɴᴛʀᴏʟʟᴇʀ 🍃", url=f"https://t.me/NARUTO_X_ROBOT"),
+        InlineKeyboardButton(text=" 𝐎ᴡɴᴇʀ ♨️ ", url=f"https://t.me/SAIF_DICTATOR"),
     ],
 ]
 X = [
     [
-        InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/{OWNER_USERNAME}"),
-        
-        InlineKeyboardButton(text=" ꜱᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{SUPPORT_GRP}"),
+        InlineKeyboardButton(text=" 🌻 𝐎𝚆𝙽𝙴𝚁 ", url=f"https://t.me/SAIF_DICTATOR"),
+              
+        InlineKeyboardButton(text=" 🎀 𝐒𝚄𝙿𝙿𝙾𝚁𝚃  ", url=f"https://t.me/T10ThiesKingsSHR"),
     ]
     ]
     
 PNG_BTN = [
     [
          InlineKeyboardButton(
-             text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ",
+             text="🌻 𝐀ᴅᴅ 𝐌ᴇ 𝐁ᴀʙʏ 🌻",
              url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
          ),
      ],
      [
-         InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", 
-                              url=f"https://t.me/{SUPPORT_GRP}",
+         InlineKeyboardButton(text="🎀 𝐒𝚄𝙿𝙿𝙾𝚁𝚃 ", 
+                              url=f"https://t.me/T10ThiesKingsSHR",
          ),
      ],
 ]
-SOURCE_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('sᴏᴜʀᴄᴇ', url=f"{SOURCE}")]])
-HELP_READ = "**➻ ᴜsᴀɢᴇ** /chatgpt <prompt>\n\n ᴇxᴀᴍᴘʟᴇ: `/chatgpt write a simple flask app in python.`\n\n**➻ ᴜsᴀɢᴇ** : /generate <prompt> \nᴇxᴀᴍᴘʟᴇ: `/generate a cute girl photo`  \n\n➻ ᴜsᴀɢᴇ /lyrics : ʀᴇᴘʟʏ ᴛᴏ ᴀᴜᴅɪᴏ ꜰɪʟᴇ ᴛᴏ ᴅᴇᴛᴇᴄᴛ ʟʏʀɪᴄꜱ**➻ ᴜsᴀɢᴇ /ping ᴛᴏ ᴄʜᴇᴄᴋ ᴛʜᴇ ᴘɪɴɢ ᴏғ ᴛʜᴇ ʙᴏᴛ.**\n\n©️ @Iam_Daxx**"
+SOURCE_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('𝐑ᴇᴘᴏ' , url=f"github.com/Saifdead")]])
+HELP_READ = "**➤ ᴜsᴀɢᴇ** /chatgpt <prompt>\n\n ʜᴇʟᴘ: `/chatgpt How are you ?`\n\n**➤ ᴜsᴀɢᴇ** : /generate <prompt> \nᴇxᴀᴍᴘʟᴇ: `/generate a cute baby `  \n\➤ ᴜsᴀɢᴇ /lyrics : ʀᴇᴘʟʏ ᴛᴏ ᴀᴜᴅɪᴏ ꜰɪʟᴇ ᴛᴏ ᴅᴇᴛᴇᴄᴛ ʟʏʀɪᴄꜱ**➤ ᴜsᴀɢᴇ /ping ᴛᴏ ᴄʜᴇᴄᴋ ᴛʜᴇ ᴘɪɴɢ ᴏғ ᴛʜᴇ ʙᴏᴛ.**\n\n©️ @SAIF_DICTATOR**"
 HELP_BACK = [
      [
-           InlineKeyboardButton(text="Qᴜᴇꜱᴛɪᴏɴ ᴛʜᴀᴛ ᴄʜᴀᴛɢᴘᴛ ᴄᴀɴ ꜱᴏʟᴠᴇ ", url=f"https://t.me/cyberdaxxx"),
+           InlineKeyboardButton(text="Qᴜᴇꜱᴛɪᴏɴ ᴛʜᴀᴛ ᴄʜᴀᴛɢᴘᴛ ᴄᴀɴ ꜱᴏʟᴠᴇ ", url=f"https://t.me/SAIFHELPGC"),
            
      ],
     [
-           InlineKeyboardButton(text="ʙᴀᴄᴋ ", callback_data="HELP_BACK"),
+           InlineKeyboardButton(text="𝐁ᴀᴄᴋ ", callback_data="HELP_BACK"),
     ],
 ]
 
+SAIF = [
+"https://te.legra.ph/file/464ccd43dd3cd1e96f452.jpg",
+]
+S=choice(SAIF)
+
+SHELP = [
+"https://te.legra.ph/file/a625a9fab36381f09dcfa.jpg",
+]
+H=choice(SHELP)
+
+SPING = [
+"https://te.legra.ph/file/77e80dd7b51a410cc9e9f.jpg",
+]
+P=choice(SPING)
+
+RSAIF = [
+"https://te.legra.ph/file/35f8b42234608be1f97f1.jpg",
+]
+R=choice(RSAIF)
   
 #         start
 @DAXX.on_message(filters.command(["start",f"start@{BOT_USERNAME}"]))
@@ -108,7 +129,7 @@ async def start(client, m: Message):
         accha = await m.reply_text(
                         text = f"{g}")
         await asyncio.sleep(0.2)
-        await accha.edit("ᴘɪɴɢ ᴘᴏɴɢ ꜱᴛᴀʀᴛɪɴɢ..")
+        await accha.edit("sᴛᴀʀᴛɪɴɢ ᴀɪ ʙᴏᴛ.")
         await asyncio.sleep(0.2)
         await accha.delete()
         umm = await m.reply_sticker(
@@ -116,8 +137,7 @@ async def start(client, m: Message):
         )
         await asyncio.sleep(0.3)
         await umm.delete()
-        await m.reply_photo(
-            photo = START_IMG,
+        await m.reply_photo(f"{S}",
             caption=START,
             reply_markup=InlineKeyboardMarkup(MAIN),
         )
@@ -138,35 +158,34 @@ async def cb_handler(Client, query: CallbackQuery):
     
 @DAXX.on_message(filters.command(["help", f"help@{BOT_USERNAME}"], prefixes=["","+", ".", "/", "-", "?", "$"]))
 async def restart(client, message):
-    hmm = await message.reply_photo(START_IMG,
+    hmm = await message.reply_photo(f"{H}",
                         caption=HELP_READ,
                         reply_markup= InlineKeyboardMarkup(HELP_BACK),
        )
-@DAXX.on_message(filters.command(['source', 'repo'], prefixes=["","+", ".", "/", "-", "?", "$"]))
+@DAXX.on_message(filters.command(['source', 'repo', 'owner'], prefixes=["","+", ".", "/", "-", "?", "$"]))
 async def source(bot, m):
     
-    await m.reply_photo(START_IMG, caption=SOURCE_TEXT, reply_markup=SOURCE_BUTTONS)
+    await m.reply_photo(f"{R}", caption=SOURCE_TEXT, reply_markup=SOURCE_BUTTONS)
 #  alive
 @DAXX.on_message(filters.command(["ping","alive"], prefixes=["+", "/", "-", "?", "$", "&","."]))
 async def ping(client, message: Message):
         start = datetime.now()
-        t = "ριиgιиg..."
+        t = "ᴀɪ ʙᴏᴛ ᴀʟɪᴠɪɴɢ..."
         txxt = await message.reply(t)
         await asyncio.sleep(0.25)
-        await txxt.edit_text("ριиgιиg.....")
+        await txxt.edit_text("ᴀɪ ʙᴏᴛ sᴛᴀʀᴛᴇᴅ......")
         await asyncio.sleep(0.35)
         await txxt.delete()
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await message.reply_photo(
-                             photo=START_IMG,
-                             caption=f"ʜᴇʏ ʙᴀʙʏ!!\n**[{BOT_NAME}](t.me/{BOT_USERNAME}) ɪꜱ ᴀʟɪᴠᴇ 🥀 ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ꜰɪɴᴇ ᴡɪᴛʜ ᴘᴏɴɢ ᴏꜰ \n➥ `{ms}` ms\n\n**ᴍᴀᴅᴇ ᴡɪᴛʜ ❣️ ʙʏ || [Mrdaxx](https://t.me/Iam_daxx)||",
+        await message.reply_photo(f"{P}",
+                             caption=f"ʜᴇʏ ʙᴀʙʏ!!\n**[{BOT_NAME}](t.me/{BOT_USERNAME}) ɪꜱ ᴀʟɪᴠᴇ 🥀 ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ꜰɪɴᴇ ᴡɪᴛʜ sᴘᴇᴇᴅ ᴏꜰ \n➥ `{ms}` ms\n\n**ᴍᴀᴅᴇ ᴡɪᴛʜ ❣️ ʙʏ || [sᴀɪғ](https://t.me/SAIF_DICTATOR)||",
                              reply_markup=InlineKeyboardMarkup(PNG_BTN),
        )
 
 #  main   
 openai.api_key = OPENAI_KEY
-@DAXX.on_message(filters.command(["chatgpt","ai","ask"],  prefixes=["+", ".", "/", "-", "?", "$","#","&"]))
+@DAXX.on_message(filters.command(["chatgpt","ai","ask","a"],  prefixes=["+", ".", "/", "-", "?", "$","#","&"]))
 async def chat(bot, message):
     
     try:
@@ -174,7 +193,7 @@ async def chat(bot, message):
         await bot.send_chat_action(message.chat.id, ChatAction.TYPING)
         if len(message.command) < 2:
             await message.reply_text(
-            "Example:**\n\n`/chatgpt Where is TajMahal?`")
+            "HELP:**\n\n`/chatgpt How are you ?`")
         else:
             a = message.text.split(' ', 1)[1]
             MODEL = "gpt-3.5-turbo"
@@ -214,7 +233,7 @@ async def chat(bot, message):
         await bot.send_chat_action(message.chat.id, ChatAction.UPLOAD_PHOTO)
         if len(message.command) < 2:
             await message.reply_text(
-            "**Example:**\n\n`/generate a white siamese cat`")
+            "**Example:**\n\n`/generate A cute baby`")
         else:
             a = message.text.split(' ', 1)[1]
             response= openai.Image.create(prompt=a ,n=1,size="1024x1024")
@@ -248,7 +267,7 @@ async def chat(bot, message):
 s = bytearray.fromhex("68747470733a2f2f6769746875622e636f6d2f444158585445414d2f4441585843484154475054").decode()
 
 if SOURCE != s:
-    print("𝗸𝗮𝗿 𝗹𝗶𝘆𝗮 𝗲𝗱𝗶𝘁 𝗺𝗶𝗹 𝗴𝘆𝗮 𝘀𝘂𝗸𝗼𝗼𝗻 𝗷𝗲𝘀𝗮 𝘁𝗵𝗮 𝘄𝗲𝘀𝗮 𝗸𝗮𝗿𝗱𝗲 ` https://github.com/DAXXTEAM/DAXXCHATGPT `  𝗻𝗵𝗶 𝘁𝗼 𝗷𝗮𝗸𝗲 𝗠𝗿𝗱𝗮𝘅𝘅 𝗸𝗼 𝗽𝗮𝗽𝗮 𝗯𝗼𝗹 𝗱𝗼 𝘁𝗵𝗶𝗸 𝗸𝗮𝗿 𝗱𝗲𝗴𝗮")
+    print("𝗸𝗮𝗿 𝗹𝗶𝘆𝗮 𝗲𝗱𝗶𝘁 𝗺𝗶𝗹 𝗴𝘆𝗮 𝘀𝘂𝗸𝗼𝗼𝗻 𝗷𝗲𝘀𝗮 𝘁𝗵𝗮 𝘄𝗲𝘀𝗮 𝗸𝗮𝗿𝗱𝗲 ` https://github.com/SAIFDEAD/AIBOT")
     sys.exit(1)  
 
 
@@ -263,10 +282,10 @@ if __name__ == "__main__":
         raise Exception("Your API_ID/API_HASH is not valid.")
     except AccessTokenInvalid:
         raise Exception("Your BOT_TOKEN is not valid.")
-    print(f"""JOIN [ 𝗬𝗢𝗨𝗥 𝗖𝗛𝗔𝗧𝗚𝗣𝗧 𝗕𝗢𝗧 𝗦𝗧𝗔𝗥𝗧]
-    𝗧𝗛𝗜𝗦 𝗥𝗘𝗣𝗢 𝗠𝗔𝗗𝗘 𝗕𝗬 𝗗𝗔𝗫𝗫 𝗧𝗘𝗔𝗠🥳
+    print(f"""JOIN [💘💥𝗬𝗢𝗨𝗥 𝗦𝗔𝗜𝗙 𝗔𝗜 𝗕𝗢𝗧 𝗦𝗧𝗔𝗥𝗧💘💥]
+    🌺🌻𝗧𝗛𝗜𝗦 𝗥𝗘𝗣𝗢 𝗠𝗔𝗗𝗘 𝗕𝗬 𝗦𝗔𝗜𝗙 🌹💖
  {BOT_NAME} ɪs ᴀʟɪᴠᴇ!  
     """)
     idle()
     DAXX.stop()
-    print("𝗗𝗔𝗫𝗫 𝗖𝗛𝗔𝗧𝗚𝗣𝗧 𝗕𝗢𝗧 𝗦𝗧𝗢𝗣 !")
+    print("𝗦𝗔𝗜𝗙 𝗔𝗜 𝗕𝗢𝗧 𝗦𝗧𝗢𝗣 !")
