@@ -3,5 +3,5 @@ requests==2.31.0
 dnspython==2.6.1
 tgcrypto==1.2.5
 asyncio==3.4.3
-openai==0.28.1
+openai==1.14.0
 bardapi==0.1.38
