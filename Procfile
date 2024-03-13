@@ -1,1 +1,1 @@
-DAXX: python3 cha
+DAXX: python3 chatgpt.py
