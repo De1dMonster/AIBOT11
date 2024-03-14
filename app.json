@@ -47,7 +47,7 @@
     },
     "STKR": {
       "description": "𝗦𝗧𝗜𝗞𝗘𝗥 𝗀𝗂𝖿 𝖻𝗇𝖺𝗅𝗈 ", "required": false,
-      "value": "BQGT4bUAnyzq4EiiutO2QzsnFbfNMkvyI_a67q_V3XrtRSGP4ANrtmURHDoJAAnX7zhV4kkKwhcJAIrZsYzN-mKog8VuGcYHWh8aaFbtF93TJHbjcbBaniQFUlYjH9SON8cZutaUlaShGxJHOQ5OwxmLs5_Ui6Z8GWjDm6d_972IWgeYFj3fWfkzcquVjL0HdJoWXhNn_wMWEkJF0eTcm8OUsykK0JIF9W0i4Pv41YCpxyFCE2-dp8PLiKGNlTBf3kAt2uyPYKlTWwOYYo8xiNvsJ7I9ZDq0pGduHdFCTgfkKetA888yaFImGkmZfQCf1dnm93_LkUSpvzP7fCZ_ZDNxQwTGlAAAAAF8SpXeAA"
+      "value": "CAACAgUAAx0Cc_auxAABAluYZfNUmOI8v7Fo1ytNW5HnFMm8uDwAArkGAAImz-hUK4p20sZYFWE0BA"
     },
     "START_IMG": {
       "description": "𝗦𝗧𝗔𝗥𝗧 𝗜𝗠𝗚 𝗗𝗔𝗟𝗢 ",
@@ -61,10 +61,12 @@
     },
     "API_ID": { "description": "𝗔𝗣𝗜 𝗜𝗗 𝗬𝗔𝗛𝗔 𝗣",
       "required": true
+      " value": "26468789"
     },
     "API_HASH": {
       "description": "𝗔𝗣𝗜 𝗛𝗔𝗦𝗛 𝗗𝗔𝗟 𝗗𝗘 𝗕𝗔𝗦𝗦 𝗞𝗛𝗔𝗧𝗔𝗠",
       "required": true
+      "value": "0da550ed2c95f251600e5ee51ff0fe66"
     }
   },
   "repository": "https://github.com/SAIFDEAD/AIBOT"
