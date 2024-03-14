@@ -60,12 +60,12 @@
       "value": "SAIFALLBOT"
     },
     "API_ID": { "description": "𝗔𝗣𝗜 𝗜𝗗 𝗬𝗔𝗛𝗔 𝗣",
-      "required": true
+      "required": true,
       " value": "26468789"
     },
     "API_HASH": {
       "description": "𝗔𝗣𝗜 𝗛𝗔𝗦𝗛 𝗗𝗔𝗟 𝗗𝗘 𝗕𝗔𝗦𝗦 𝗞𝗛𝗔𝗧𝗔𝗠",
-      "required": true
+      "required": true,
       "value": "0da550ed2c95f251600e5ee51ff0fe66"
     }
   },
