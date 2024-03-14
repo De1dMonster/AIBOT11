@@ -201,9 +201,10 @@ async def chat(bot, message):
             end_time = time.time()
             telegram_ping = str(round((end_time - start_time) * 1000, 3)) + " ᴍs"
             await message.reply_text(f" {x}\n\n✨ 𝐓ɪᴍᴇ 𝐓ᴀᴋᴇɴ  {telegram_ping} \n\n🎉 𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ @{BOT_USERNAME} ", parse_mode=ParseMode.MARKDOWN,reply_markup=InlineKeyboardMarkup(X))     
-               Exception as e:
-                   await message.reply_text(f"**ᴇʀʀᴏʀ: {e} ")
+    except Exception as e:
+        await message.reply_text(f"**ᴇʀʀᴏʀ: {e} ")
 
+        
 #  bard 
 
 '''bard = Bard(token=BARD_TOKEN)   
