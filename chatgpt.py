@@ -52,8 +52,8 @@ x=["❤️"]
 g=choice(x)
 MAIN = [
     [
-        InlineKeyboardButton(text="🦋 𝐌ᴜsɪᴄ ", url=f"https://t.me/HINATA_N_BOT"),
-        InlineKeyboardButton(text=" 𝐒𝚄𝙿𝙿𝙾𝚁𝚃  🥀", url=f"https://t.me/T10ThiesKingsSHR"),
+        InlineKeyboardButton(text="𝐌ᴜsɪᴄ ", url=f"https://t.me/HINATA_N_BOT"),
+        InlineKeyboardButton(text=" 𝐒𝚄𝙿𝙿𝙾𝚁𝚃  ", url=f"https://t.me/T10ThiesKingsSHR"),
     ],
     [
         InlineKeyboardButton(
@@ -62,36 +62,36 @@ MAIN = [
         ),
     ],
     [
-        InlineKeyboardButton(text=" 🎟 𝐇ᴇʟᴘ & 𝐂ᴍᴅs ", callback_data="HELP"),
+        InlineKeyboardButton(text="  𝐇ᴇʟᴘ & 𝐂ᴍᴅs ", callback_data="HELP"),
     ],
     [
-        InlineKeyboardButton(text="𝐂ᴏɴᴛʀᴏʟʟᴇʀ 🍃", url=f"https://t.me/NARUTO_X_ROBOT"),
-        InlineKeyboardButton(text=" 𝐎ᴡɴᴇʀ ♨️ ", url=f"https://t.me/SAIF_DICTATOR"),
+        InlineKeyboardButton(text="𝐂ᴏɴᴛʀᴏʟʟᴇʀ ", url=f"https://t.me/NARUTO_X_ROBOT"),
+        InlineKeyboardButton(text=" 𝐎ᴡɴᴇʀ  ", url=f"https://t.me/SAIF_DICTATOR"),
     ],
 ]
 X = [
     [
-        InlineKeyboardButton(text=" 🌻 𝐎𝚆𝙽𝙴𝚁 ", url=f"https://t.me/SAIF_DICTATOR"),
+        InlineKeyboardButton(text="  𝐃ɪᴄᴛᴀᴛᴏʀ ", url=f"https://t.me/SAIF_DICTATOR"),
               
-        InlineKeyboardButton(text=" 🎀 𝐒𝚄𝙿𝙿𝙾𝚁𝚃  ", url=f"https://t.me/T10ThiesKingsSHR"),
+        InlineKeyboardButton(text="  𝐒𝚄𝙿𝙿𝙾𝚁𝚃  ", url=f"https://t.me/T10ThiesKingsSHR"),
     ]
     ]
     
 PNG_BTN = [
     [
          InlineKeyboardButton(
-             text="🌻 𝐀ᴅᴅ 𝐌ᴇ 𝐁ᴀʙʏ 🌻",
+             text="•─╼⃝𖠁 𝐀ᴅᴅ 𝐌ᴇ 𝐁ᴀʙʏ 𖠁⃝╾─•❍",
              url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
          ),
      ],
      [
-         InlineKeyboardButton(text="🎀 𝐒𝚄𝙿𝙿𝙾𝚁𝚃 ", 
+         InlineKeyboardButton(text=" 𝐒𝚄𝙿𝙿𝙾𝚁𝚃 ", 
                               url=f"https://t.me/T10ThiesKingsSHR",
          ),
      ],
 ]
 SOURCE_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('𝐑ᴇᴘᴏ' , url=f"github.com/Saifdead")]])
-HELP_READ = "**➤ ᴜsᴀɢᴇ** /chatgpt <prompt>\n\n ʜᴇʟᴘ: `/chatgpt How are you ?`\n\n**➤ ᴜsᴀɢᴇ** : /generate <prompt> \nᴇxᴀᴍᴘʟᴇ: `/generate a cute baby `  \n\➤ ᴜsᴀɢᴇ /lyrics : ʀᴇᴘʟʏ ᴛᴏ ᴀᴜᴅɪᴏ ꜰɪʟᴇ ᴛᴏ ᴅᴇᴛᴇᴄᴛ ʟʏʀɪᴄꜱ**➤ ᴜsᴀɢᴇ /ping ᴛᴏ ᴄʜᴇᴄᴋ ᴛʜᴇ ᴘɪɴɢ ᴏғ ᴛʜᴇ ʙᴏᴛ.**\n\n©️ @SAIF_DICTATOR**"
+HELP_READ = "**➤ ᴜsᴀɢᴇ** /Gojo <prompt>\n\n ʜᴇʟᴘ: `/Gojo ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ ?`\n\n**➤ ᴜsᴀɢᴇ** : /ɢᴇɴᴇʀᴀᴛᴇ <prompt> \nᴇxᴀᴍᴘʟᴇ: `/ɢᴇɴᴇʀᴀᴛᴇ ᴀ ᴄᴜᴛᴇ ʙᴀʙʏ `  \n\➤ ᴜsᴀɢᴇ /lyrics : ʀᴇᴘʟʏ ᴛᴏ ᴀᴜᴅɪᴏ ꜰɪʟᴇ ᴛᴏ ᴅᴇᴛᴇᴄᴛ ʟʏʀɪᴄꜱ**➤ ᴜsᴀɢᴇ /ping ᴛᴏ ᴄʜᴇᴄᴋ ᴛʜᴇ ᴘɪɴɢ ᴏғ ᴛʜᴇ ʙᴏᴛ.**\n\n©️ @SAIF_DICTATOR**"
 HELP_BACK = [
      [
            InlineKeyboardButton(text="Qᴜᴇꜱᴛɪᴏɴ ᴛʜᴀᴛ ᴄʜᴀᴛɢᴘᴛ ᴄᴀɴ ꜱᴏʟᴠᴇ ", url=f"https://t.me/SAIFHELPGC"),
@@ -103,12 +103,12 @@ HELP_BACK = [
 ]
 
 SAIF = [
-"https://te.legra.ph/file/464ccd43dd3cd1e96f452.jpg",
+"https://te.legra.ph/file/a50a449627d04835832dd.jpg",
 ]
 S=choice(SAIF)
 
 SHELP = [
-"https://te.legra.ph/file/a625a9fab36381f09dcfa.jpg",
+"https://te.legra.ph/file/478fdd0082c3ff05a5155.jpg",
 ]
 H=choice(SHELP)
 
@@ -118,7 +118,7 @@ SPING = [
 P=choice(SPING)
 
 RSAIF = [
-"https://te.legra.ph/file/35f8b42234608be1f97f1.jpg",
+"https://te.legra.ph/file/43c3b863f5a6c99a01808.jpg",
 ]
 R=choice(RSAIF)
   
@@ -193,7 +193,7 @@ async def chat(bot, message):
         await bot.send_chat_action(message.chat.id, ChatAction.TYPING)
         if len(message.command) < 2:
             await message.reply_text(
-            "HELP:**\n\n`/chatgpt How are you ?`")
+            "ᴇxᴀᴍᴘʟᴇ:**\n\n`/Gojo 𝐇ᴏᴡ 𝐀ʀᴇ 𝐘ᴏᴜ ?`")
         else:
             a = message.text.split(' ', 1)[1]
             MODEL = "gpt-3.5-turbo"
