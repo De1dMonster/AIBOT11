@@ -26,25 +26,25 @@ DAXX = Client(
     bot_token = BOT_TOKEN
 )
 START = f"""
-➤ ʜᴇʏ, ɪ ᴀᴍ {BOT_NAME} 
-➤ ᴀɴ ᴏᴘᴇɴ-ᴀɪ-ʙᴀsᴇᴅ ᴄʜᴀᴛɢᴘᴛ
-➤ ɪ ᴄᴀɴ ᴀɴsᴡᴇʀ ʏᴏᴜʀ ǫᴜsᴛɪᴏɴ ᴇᴀsɪʟʏ
+❍ ʜᴇʏ, ɪ ᴀᴍ {BOT_NAME} 
+❍ ᴀɴ ᴏᴘᴇɴ-ᴀɪ-ʙᴀsᴇᴅ ᴄʜᴀᴛɢᴘᴛ
+❍ ɪ ᴄᴀɴ ᴀɴsᴡᴇʀ ʏᴏᴜʀ ǫᴜsᴛɪᴏɴ ᴇᴀsɪʟʏ
 
 ──────────────────
-➤ ɪ ᴀᴍ ᴀᴅᴠᴀɴᴄᴇ ʙᴏᴛ ᴀɴᴅ ᴄᴀɴ 
-ᴀɴsᴡᴇʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀɪᴇs ᴇᴀsʟɪʏ
-➤ Rᴇᴀᴅ Tʜᴇ ʜᴇʟᴘ sᴇᴄᴛɪᴏɴ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏ
-➤ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴜsᴇ /help
+❍ ɪ ᴀᴍ ᴀᴅᴠᴀɴᴄᴇ ʙᴏᴛ ᴀɴᴅ ᴄᴀɴ 
+❍ ɴsᴡᴇʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀɪᴇs ᴇᴀsʟɪʏ
+❍ Rᴇᴀᴅ Tʜᴇ ʜᴇʟᴘ sᴇᴄᴛɪᴏɴ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏ
+❍ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴜsᴇ /help
 """
 xa = bytearray.fromhex("68747470733a2f2f6769746875622e636f6d2f444158585445414d2f4441585843484154475054").decode()
 SOURCE = xa
 SOURCE_TEXT = f"""
-❥ ʜᴇʏ, ɪ ᴀᴍ {BOT_NAME} ʙᴏᴛ
-❥ ᴀɴ ᴏᴘᴇɴ-ᴀɪ-ʙᴀsᴇᴅ ᴄʜᴀᴛɢᴘᴛ
-❥ ɪ ᴄᴀɴ ᴀɴsᴡᴇʀ ʏᴏᴜʀ ǫᴜᴀᴛɪᴏɴ ᴇᴀsʟɪʏ
+❍ ʜᴇʏ, ɪ ᴀᴍ {BOT_NAME} ʙᴏᴛ
+❍ ᴀɴ ᴏᴘᴇɴ-ᴀɪ-ʙᴀsᴇᴅ ᴄʜᴀᴛɢᴘᴛ
+❍ ɪ ᴄᴀɴ ᴀɴsᴡᴇʀ ʏᴏᴜʀ ǫᴜᴀᴛɪᴏɴ ᴇᴀsʟɪʏ
 
 ──────────────────
-☟ ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ☟
+❍ ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ☟
 """
 
 
@@ -103,12 +103,12 @@ HELP_BACK = [
 ]
 
 SAIF = [
-"https://te.legra.ph/file/464ccd43dd3cd1e96f452.jpg",
+"https://te.legra.ph/file/a50a449627d04835832dd.jpg",
 ]
 S=choice(SAIF)
 
 SHELP = [
-"https://te.legra.ph/file/a625a9fab36381f09dcfa.jpg",
+"https://te.legra.ph/file/478fdd0082c3ff05a5155.jpg",
 ]
 H=choice(SHELP)
 
@@ -118,7 +118,7 @@ SPING = [
 P=choice(SPING)
 
 RSAIF = [
-"https://te.legra.ph/file/35f8b42234608be1f97f1.jpg",
+    "https://te.legra.ph/file/43c3b863f5a6c99a01808.jpg",
 ]
 R=choice(RSAIF)
   
@@ -147,7 +147,8 @@ async def start(client, m: Message):
 @DAXX.on_callback_query()
 async def cb_handler(Client, query: CallbackQuery):
     if query.data == "HELP":
-     await query.message.edit_text(
+     await query.message.edit_t
+        t(
                       text = HELP_READ,
                       reply_markup = InlineKeyboardMarkup(HELP_BACK),
      )
