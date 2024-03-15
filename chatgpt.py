@@ -52,8 +52,8 @@ x=["❤️"]
 g=choice(x)
 MAIN = [
     [
-        InlineKeyboardButton(text=" 𝐌ᴜsɪᴄ ", url=f"https://t.me/HINATA_N_BOT"),
-        InlineKeyboardButton(text=" 𝐒𝚄𝙿𝙿𝙾𝚁𝚃  ", url=f"https://t.me/T10ThiesKingsSHR"),
+        InlineKeyboardButton(text="🦋 𝐌ᴜsɪᴄ ", url=f"https://t.me/HINATA_N_BOT"),
+        InlineKeyboardButton(text=" 𝐒𝚄𝙿𝙿𝙾𝚁𝚃  🥀", url=f"https://t.me/T10ThiesKingsSHR"),
     ],
     [
         InlineKeyboardButton(
@@ -62,30 +62,30 @@ MAIN = [
         ),
     ],
     [
-        InlineKeyboardButton(text="𝐇ᴇʟᴘ & 𝐂ᴍᴅs ", callback_data="HELP"),
+        InlineKeyboardButton(text=" 🎟 𝐇ᴇʟᴘ & 𝐂ᴍᴅs ", callback_data="HELP"),
     ],
     [
-        InlineKeyboardButton(text="𝐂ᴏɴᴛʀᴏʟʟᴇʀ ", url=f"https://t.me/NARUTO_X_ROBOT"),
-        InlineKeyboardButton(text=" 𝐎ᴡɴᴇʀ  ", url=f"https://t.me/SAIF_DICTATOR"),
+        InlineKeyboardButton(text="𝐂ᴏɴᴛʀᴏʟʟᴇʀ 🍃", url=f"https://t.me/NARUTO_X_ROBOT"),
+        InlineKeyboardButton(text=" 𝐎ᴡɴᴇʀ ♨️ ", url=f"https://t.me/SAIF_DICTATOR"),
     ],
 ]
 X = [
     [
-        InlineKeyboardButton(text="  𝐃ɪᴄᴛᴀᴛᴏʀ ", url=f"https://t.me/SAIF_DICTATOR"),
+        InlineKeyboardButton(text=" 🌻 𝐎𝚆𝙽𝙴𝚁 ", url=f"https://t.me/SAIF_DICTATOR"),
               
-        InlineKeyboardButton(text="  𝐒𝚄𝙿𝙿𝙾𝚁𝚃  ", url=f"https://t.me/T10ThiesKingsSHR"),
+        InlineKeyboardButton(text=" 🎀 𝐒𝚄𝙿𝙿𝙾𝚁𝚃  ", url=f"https://t.me/T10ThiesKingsSHR"),
     ]
     ]
     
 PNG_BTN = [
     [
          InlineKeyboardButton(
-             text="•─╼⃝𖠁 𝐀ᴅᴅ 𝐌ᴇ 𝐁ᴀʙʏ 𖠁⃝╾─•",
+             text="🌻 𝐀ᴅᴅ 𝐌ᴇ 𝐁ᴀʙʏ 🌻",
              url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
          ),
      ],
      [
-         InlineKeyboardButton(text=" 𝐒𝚄𝙿𝙿𝙾𝚁𝚃 ", 
+         InlineKeyboardButton(text="🎀 𝐒𝚄𝙿𝙿𝙾𝚁𝚃 ", 
                               url=f"https://t.me/T10ThiesKingsSHR",
          ),
      ],
@@ -103,12 +103,12 @@ HELP_BACK = [
 ]
 
 SAIF = [
-"https://te.legra.ph/file/a50a449627d04835832dd.jpg",
+"https://te.legra.ph/file/464ccd43dd3cd1e96f452.jpg",
 ]
 S=choice(SAIF)
 
 SHELP = [
-"https://te.legra.ph/file/478fdd0082c3ff05a5155.jpg",
+"https://te.legra.ph/file/a625a9fab36381f09dcfa.jpg",
 ]
 H=choice(SHELP)
 
@@ -118,7 +118,7 @@ SPING = [
 P=choice(SPING)
 
 RSAIF = [
-    "https://te.legra.ph/file/43c3b863f5a6c99a01808.jpg",
+"https://te.legra.ph/file/35f8b42234608be1f97f1.jpg",
 ]
 R=choice(RSAIF)
   
@@ -147,8 +147,7 @@ async def start(client, m: Message):
 @DAXX.on_callback_query()
 async def cb_handler(Client, query: CallbackQuery):
     if query.data == "HELP":
-     await query.message.edit_t
-        t(
+     await query.message.edit_text(
                       text = HELP_READ,
                       reply_markup = InlineKeyboardMarkup(HELP_BACK),
      )
@@ -186,7 +185,7 @@ async def ping(client, message: Message):
 
 #  main   
 openai.api_key = OPENAI_KEY
-@DAXX.on_message(filters.command(["chatgpt","ai","gojo","ask"],  prefixes=["+", ".", "/", "-", "?", "$","#","&"]))
+@DAXX.on_message(filters.command(["chatgpt","ai","ask","a"],  prefixes=["+", ".", "/", "-", "?", "$","#","&"]))
 async def chat(bot, message):
     
     try:
@@ -194,7 +193,7 @@ async def chat(bot, message):
         await bot.send_chat_action(message.chat.id, ChatAction.TYPING)
         if len(message.command) < 2:
             await message.reply_text(
-            "ᴇxᴀᴍᴘʟᴇ:**\n\n`/𝐠ᴏᴊᴏ 𝐖ʜᴇʀᴇ 𝐈s 𝐓ᴀᴊᴍᴀʜᴀʟ?`")
+            "HELP:**\n\n`/chatgpt How are you ?`")
         else:
             a = message.text.split(' ', 1)[1]
             MODEL = "gpt-3.5-turbo"
@@ -203,7 +202,7 @@ async def chat(bot, message):
             x=resp['choices'][0]["message"]["content"]
             end_time = time.time()
             telegram_ping = str(round((end_time - start_time) * 1000, 3)) + " ᴍs"
-            await message.reply_text(f"{message.from_user.first_name} 𝐀ꜱᴋᴇᴅ 💘:\n\n {a} \n\n {BOT_NAME} 𝐀ɴꜱᴡᴇʀᴇᴅ 🌻:-\n\n {x}\n\n✨ 𝐓ɪᴍᴇ 𝐓ᴀᴋᴇɴ  {telegram_ping} \n\n𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ  🥀 @{BOT_USERNAME} ", parse_mode=ParseMode.MARKDOWN,reply_markup=InlineKeyboardMarkup(X))     
+            await message.reply_text(f"{message.from_user.first_name} ᴀꜱᴋᴇᴅ:\n\n {a} \n\n {BOT_NAME} ᴀɴꜱᴡᴇʀᴇᴅ:-\n\n {x}\n\n✨ᴛɪᴍᴇ ᴛᴀᴋᴇɴ  {telegram_ping} \n\n🎉ᴘᴏᴡᴇʀᴇᴅ ʙʏ @{BOT_USERNAME} ", parse_mode=ParseMode.MARKDOWN,reply_markup=InlineKeyboardMarkup(X))     
     except Exception as e:
         await message.reply_text(f"**ᴇʀʀᴏʀ: {e} ")
 
