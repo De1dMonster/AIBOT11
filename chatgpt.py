@@ -185,15 +185,15 @@ async def ping(client, message: Message):
 
 #  main   
 openai.api_key = OPENAI_KEY
-@DAXX.on_message(filters.command(["chatgpt","ai","ask","a"],  prefixes=["+", ".", "/", "-", "?", "$","#","&"]))
+@DAXX.on_message(filters.command(["chatgpt","ai","gojo","ask"],  prefixes=["+", ".", "/", "-", "?", "$","#","&"]))
 async def chat(bot, message):
-   
-   try:
+    
+    try:
         start_time = time.time()
         await bot.send_chat_action(message.chat.id, ChatAction.TYPING)
         if len(message.command) < 2:
             await message.reply_text(
-            "ᴇxᴀᴍᴘʟᴇ:**\n\n`/ᴄʜᴀᴛɢᴘᴛ ᴡʜᴇʀᴇ ɪs ᴛᴀᴊᴍᴀʜᴀʟ ?`")
+            "ᴇxᴀᴍᴘʟᴇ:**\n\n`/𝐠ᴏᴊᴏ 𝐖ʜᴇʀᴇ 𝐈s 𝐓ᴀᴊᴍᴀʜᴀʟ?`")
         else:
             a = message.text.split(' ', 1)[1]
             MODEL = "gpt-3.5-turbo"
@@ -202,11 +202,10 @@ async def chat(bot, message):
             x=resp['choices'][0]["message"]["content"]
             end_time = time.time()
             telegram_ping = str(round((end_time - start_time) * 1000, 3)) + " ᴍs"
-            await message.reply_text(f"{message.from_user.first_name} 𝐀ꜱᴋᴇᴅ 🦋:\n\n {a} \n\n {BOT_NAME} 𝐀ɴꜱᴡᴇʀᴇᴅ 💖:-\n\n {x}\n\n✨ 𝐓ɪᴍᴇ 𝐓ᴀᴋᴇɴ  {telegram_ping} \n\n𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ 🥀 @{BOT_USERNAME} ", parse_mode=ParseMode.MARKDOWN,reply_markup=InlineKeyboardMarkup(X))     
+            await message.reply_text(f"{message.from_user.first_name} 𝐀ꜱᴋᴇᴅ 💘:\n\n {a} \n\n {BOT_NAME} 𝐀ɴꜱᴡᴇʀᴇᴅ 🌻:-\n\n {x}\n\n✨ 𝐓ɪᴍᴇ 𝐓ᴀᴋᴇɴ  {telegram_ping} \n\n𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ  🥀 @{BOT_USERNAME} ", parse_mode=ParseMode.MARKDOWN,reply_markup=InlineKeyboardMarkup(X))     
     except Exception as e:
         await message.reply_text(f"**ᴇʀʀᴏʀ: {e} ")
 
-        
 #  bard 
 
 '''bard = Bard(token=BARD_TOKEN)   
